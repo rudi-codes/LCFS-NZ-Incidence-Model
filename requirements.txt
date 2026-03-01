@@ -1,0 +1,12 @@
+
+
+# Core analysis dependencies
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+
+# Required for pandas.read_stata (LCFS .dta inputs)
+pyreadstat>=1.2
+
+# Used for reading/writing Excel files in ancillary scripts and documentation
+openpyxl>=3.1

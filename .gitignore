@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
+
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.latexmk
+*.nav
+
+# Report artefacts (not shared)
+*.pdf
+*.tex
+sections/
+refs*.bib
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (not shared in public repo)
+data/
+
+# Outputs (not shared in public repo)
+outputs/
+
+# Local LaTeX outputs (root)
+
+# Temporary debug artefacts
+biber_debug.txt
+biber_stderr.txt
+_write_test.txt
